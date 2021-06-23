@@ -9,7 +9,7 @@ server.use(express.json());
 server.use('/test', lyftRouter)
 
 server.get("/", (req, res) => {
-  res.json({ api: "up" });
+  res.json({ lyft: "here I come" });
 });
 
 module.exports = server;
